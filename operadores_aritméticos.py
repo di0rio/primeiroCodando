@@ -34,4 +34,7 @@ print(leite + achocolatado)
 print(leite * achocolatado)
 # print(leite / achocolatado)
 print(leite * 4 + achocolatado)
+print(leite ** 4 + achocolatado)
 print(leite % achocolatado)
+
+
