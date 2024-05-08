@@ -4,6 +4,7 @@
 # mapa dict
 # booleano bool
 # coleção set, fronzenset
+
 print("Oi mundo!")
 
 # numeross
@@ -28,6 +29,10 @@ print(f'Meu nome é {name} e eu tenho {age} anos(s) de idade.')
 # unica linha
 age, name = 9, 'Cauã'
 print(f'Meu nome é {name} e eu tenho {age} anos(s) de idade.')
+# type() mostra o tipo
+#lista com indice negativo
+#f é capaz de juntar palavras e vars
+
 
 ##################################################################################################
 
@@ -37,11 +42,6 @@ print(f'Meu nome é {name} e eu tenho {age} anos(s) de idade.')
 # nome em snake case(aaa_aa)
 # nomes sujestivos
 limite_saque_diario = 1000
-
-
-
-
-
 
 
 
