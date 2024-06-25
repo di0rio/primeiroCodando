@@ -1,25 +1,25 @@
 # Lembre-se de alterar o caminho do arquivo, para o caminho completo da sua máquina!
 
 arquivo = open(
-    "/home/guilherme/Projetos/dio/codigo-fonte/trilha-python-dio/05 - Manipulação de arquivos/lorem.txt", "r"
+    "arquivos/lorem.txt", "r"
 )
 print(arquivo.read())
 arquivo.close()
 
 arquivo = open(
-    "/home/guilherme/Projetos/dio/codigo-fonte/trilha-python-dio/05 - Manipulação de arquivos/lorem.txt", "r"
+    "arquivos/lorem.txt", "r"
 )
 print(arquivo.readline())
 arquivo.close()
 
 arquivo = open(
-    "/home/guilherme/Projetos/dio/codigo-fonte/trilha-python-dio/05 - Manipulação de arquivos/lorem.txt", "r"
+    "arquivos/lorem.txt", "r"
 )
 print(arquivo.readlines())
 arquivo.close()
 
 arquivo = open(
-    "/home/guilherme/Projetos/dio/codigo-fonte/trilha-python-dio/05 - Manipulação de arquivos/lorem.txt", "r"
+    "arquivos/lorem.txt", "r"
 )
 # tip
 while len(linha := arquivo.readline()):
@@ -30,7 +30,7 @@ arquivo.close()
 ####################################################################################
 
 arquivo = open(
-    "/home/guilherme/Projetos/dio/codigo-fonte/trilha-python-dio/05 - Manipulação de arquivos/teste.txt", "w"
+    "arquivos/teste.txt", "w"
 )
 arquivo.write("Escrevendo dados em um novo arquivo.")
 arquivo.writelines(["\n", "escrevendo", "\n", "um", "\n", "novo", "\n", "texto"])
